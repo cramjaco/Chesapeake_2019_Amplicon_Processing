@@ -1,0 +1,7 @@
+Files,ID,ReadDir,Sample,Station,Depth,Size,Type
+4-3-S-0-2_S47_L001_R1_001.fastq.gz,4-3-S-0-2,1,4-3-S-0-2,4.3,S,0.2,Sample
+4-3-S-0-2_S47_L001_R2_001.fastq.gz,4-3-S-0-2,2,4-3-S-0-2,4.3,S,0.2,Sample
+4-3-S-180_S43_L001_R1_001.fastq.gz,4-3-S-180,1,4-3-S-180,4.3,S,180,Sample
+4-3-S-180_S43_L001_R2_001.fastq.gz,4-3-S-180,2,4-3-S-180,4.3,S,180,Sample
+generous-donor_S1_L001_R1_001.fastq.gz,generous-donor,1,generous-donor,NA,NA,NA,GD
+generous-donor_S1_L001_R2_001.fastq.gz,generous-donor,2,generous-donor,NA,NA,NA,GD
