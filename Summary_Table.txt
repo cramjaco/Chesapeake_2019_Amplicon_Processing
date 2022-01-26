@@ -1,0 +1,10 @@
+               dada2_input filtered dada_f dada_r merged nonchim
+4-3-S-0-2            59412    40714  40433  40346  40142   39938
+4-3-S-180           174125   142816 137820 129861 126288   95496
+generous-donor       86645    66697  66557  66359  66276   66243
+               non_chimeric_reads_pct final_perc_reads_retained
+4-3-S-0-2                        99.5                      67.2
+4-3-S-180                        75.6                      54.8
+generous-donor                  100.0                      76.5
+[1]    3 7224
+[1]    3 1926

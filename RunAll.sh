@@ -55,5 +55,6 @@ Rscript RScripts/SlayChimeras.R
 #going to proceed.
 
 # Make a table of statistics per Mike Lee's tutorial.
+Rscript RScripts/SummaryTable.R > Summary_Table.txt
 
 
