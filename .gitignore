@@ -57,3 +57,6 @@ rsconnect/
 # the .Rproj.user directory
 .Rproj.user
 .Rproj.user/*
+
+# slurm output files
+*.out
