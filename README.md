@@ -11,8 +11,9 @@ The raw data are in the `RenamedSamples` directory.
 
 Empty folders are for intermediate files. `renv` should have tracked all dependencies in R, cutadapt was installed through conda.
 
-Note, on my computer I have a conda environment called `cutadaptenv` that
-has cutadapt in it. You need to either have this enviornment with this name
-or else, modify the RunAll.R file
+
 
 Also RunAll.job runs RunAll.R on the Horn Point Laboratory HPCC
+
+Note, on my computer I have a conda environment called `cutadaptenv` that
+has cutadapt in it. This environment is called in the job file.

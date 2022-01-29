@@ -1,9 +1,6 @@
 #!/bin/bash
 
-# Cutadaptenv is my conda env with cutadapt in it
-# others may need to activate their own conda enviornment
 
-source activate cutadaptenv
 
 # The point of this script is to reproduce a problem that I am having
 # with the DADA2 pipeline, on a few select samples.

@@ -10,9 +10,15 @@
 #SBATCH -t 12:00:00
 #SBATCH --output=SlurmOutput/runall-slurm-%j.out
 
-
+# Running r version 4
 module load R/4.0.2
+
+# Cutadaptenv is my conda env with cutadapt in it
+# others may need to activate their own conda enviornment
+
+source activate cutadaptenv
+
 pwd
-## dear god, hard coded everything
+
 . RunAll.sh
 
