@@ -11,7 +11,7 @@ AllPaths <- here("RDataFiles", AllFiles)
 walk(AllPaths, load, .GlobalEnv)
 
 # Get sample names
-samples <- read_lines(here("samples.txt"))
+samples <- read_lines(here("Keys/samples.txt"))
 samples <- samples[1:length(samples)-1] # there was a newline at the end of
 # samples.txt
 

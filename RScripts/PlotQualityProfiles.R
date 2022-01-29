@@ -2,7 +2,7 @@ library(tidyverse)
 library(dada2)
 library(here)
 
-key2 <- read_csv(here("SampleKey2.csv"))
+key2 <- read_csv(here("Keys/SampleKey2.csv"))
 
 forward_reads_to_plot <- key2 %>% filter(ReadDir == 1 & Sample %in% c("generous-donor", "4-3-S-0-2", "4-3-S-180")) %>% pull(TrimmedPaths)
 

@@ -1,7 +1,7 @@
 This is cutadapt 3.5 with Python 3.9.9
 Command line parameters: -a ^GTGYCAGCMGCCGCGGTAA...AAACTYAAAKRAATTGRCGG -A ^CCGYCAATTYMTTTRAGTTT...TTACCGCGGCKGCTGRCAC -m 200 --discard-untrimmed -o TrimmedSamples/4-3-S-0-2_R1_trim.fastq.gz -p TrimmedSamples/4-3-S-0-2_R2_trim.fastq.gz RenamedSamples/4-3-S-0-2_R1_ren.fastq.gz RenamedSamples/4-3-S-0-2_R2_ren.fastq.gz
 Processing reads on 1 core in paired-end mode ...
-Finished in 1.84 s (31 µs/read; 1.96 M reads/minute).
+Finished in 1.81 s (30 µs/read; 1.98 M reads/minute).
 
 === Summary ===
 
@@ -76,7 +76,7 @@ length	count	expect	max.err	error counts
 This is cutadapt 3.5 with Python 3.9.9
 Command line parameters: -a ^GTGYCAGCMGCCGCGGTAA...AAACTYAAAKRAATTGRCGG -A ^CCGYCAATTYMTTTRAGTTT...TTACCGCGGCKGCTGRCAC -m 200 --discard-untrimmed -o TrimmedSamples/4-3-S-180_R1_trim.fastq.gz -p TrimmedSamples/4-3-S-180_R2_trim.fastq.gz RenamedSamples/4-3-S-180_R1_ren.fastq.gz RenamedSamples/4-3-S-180_R2_ren.fastq.gz
 Processing reads on 1 core in paired-end mode ...
-Finished in 5.74 s (33 µs/read; 1.83 M reads/minute).
+Finished in 5.75 s (33 µs/read; 1.83 M reads/minute).
 
 === Summary ===
 
@@ -165,7 +165,7 @@ length	count	expect	max.err	error counts
 This is cutadapt 3.5 with Python 3.9.9
 Command line parameters: -a ^GTGYCAGCMGCCGCGGTAA...AAACTYAAAKRAATTGRCGG -A ^CCGYCAATTYMTTTRAGTTT...TTACCGCGGCKGCTGRCAC -m 200 --discard-untrimmed -o TrimmedSamples/generous-donor_R1_trim.fastq.gz -p TrimmedSamples/generous-donor_R2_trim.fastq.gz RenamedSamples/generous-donor_R1_ren.fastq.gz RenamedSamples/generous-donor_R2_ren.fastq.gz
 Processing reads on 1 core in paired-end mode ...
-Finished in 2.61 s (30 µs/read; 2.00 M reads/minute).
+Finished in 2.67 s (31 µs/read; 1.96 M reads/minute).
 
 === Summary ===
 

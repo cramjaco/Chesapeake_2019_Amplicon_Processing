@@ -3,7 +3,7 @@ library(here)
 library(dada2)
 packageVersion("dada2")
 
-key2 <- read_csv(here("SampleKey2.csv"))
+key2 <- read_csv(here("Keys/SampleKey2.csv"))
 
 nb = 1e8
 mt = TRUE

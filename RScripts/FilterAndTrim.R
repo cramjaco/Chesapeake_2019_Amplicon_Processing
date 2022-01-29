@@ -2,7 +2,7 @@ library(tidyverse)
 library(dada2)
 library(here)
 
-key2 <- read_csv(here("SampleKey2.csv"))
+key2 <- read_csv(here("Keys/SampleKey2.csv"))
 
 filtered <- filterAndTrim(
   fwd = key2 %>% filter(ReadDir == 1) %>% pull(TrimmedPaths) %>% here(),
