@@ -6,7 +6,7 @@
 rm -f cutadapt_primer_trimming_stats.txt
 rm -f TrimmedSamples/*
 
-for sample in $(cat samples.txt)
+for sample in $(cat Keys/samples.txt)
 do
 
     echo "On sample: $sample"
