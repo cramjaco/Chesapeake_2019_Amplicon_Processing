@@ -5,3 +5,4 @@ mkdir -p RenamedSamples
 mkdir -p TrimmedSamples
 mkdir -p FilteredSamples
 mkdir -p DereplicatedSamples
+mkdir -p SlurmOutput

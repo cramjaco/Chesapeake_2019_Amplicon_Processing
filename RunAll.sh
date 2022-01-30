@@ -10,8 +10,9 @@
 # I also have metadata in `SampleKey1.csv` and `SampleKey2.csv`
 
 #First I trim my sequences, with cutadapt
-echo "Step 1 -- Trimming Primers"
-sh Trim.sh
+# skipping for now, since already done
+# echo "Step 1 -- Trimming Primers"
+# sh Trim.sh
 # Forgetting this step is the leading cause of chimeras, but I haven't
 # forgotten, and there is evidence that the trimming (parada et al. primers)
 # actually happened in the file

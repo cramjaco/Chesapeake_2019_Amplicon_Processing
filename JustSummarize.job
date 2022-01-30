@@ -1,0 +1,19 @@
+#!/bin/bash
+
+## Simple single process job that uses 4 cores
+
+#SBATCH -A "app=test"
+#SBATCH -J SumarDada
+#SBATCH -p high
+#SBATCH -n 1
+#SBATCH --cpus-per-task=4
+#SBATCH -t 00:30:00
+#SBATCH --output=SlurmOutput/summarize-slurm-%j.out
+
+# Running r version 4
+module load R/4.0.2
+
+pwd
+
+Rscript RScripts/SummaryTable.R > Summary_Table.txt
+

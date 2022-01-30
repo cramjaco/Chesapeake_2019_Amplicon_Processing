@@ -60,3 +60,6 @@ rsconnect/
 
 # slurm output files
 *.out
+
+# R Data files
+*.RData

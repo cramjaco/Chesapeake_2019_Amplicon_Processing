@@ -12,8 +12,7 @@ walk(AllPaths, load, .GlobalEnv)
 
 # Get sample names
 samples <- read_lines(here("Keys/samples.txt"))
-samples <- samples[1:length(samples)-1] # there was a newline at the end of
-# samples.txt
+#samples <- samples[1:length(samples)-1] # there was a newline at the end  samples.txt once
 
 # Make the table of summary stats
 
