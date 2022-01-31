@@ -9,7 +9,7 @@ filtered <- filterAndTrim(
   filt = key2 %>% filter(ReadDir == 1) %>% pull(FilteredPaths) %>% here(),
   rev = key2 %>% filter(ReadDir == 2) %>% pull(TrimmedPaths) %>% here(),
   filt.rev = key2 %>% filter(ReadDir == 2) %>% pull(FilteredPaths) %>% here(),
-  maxEE = c(2,3), # was 3,5
+  maxEE = c(1,2), # was 3,5, then 2,3
   rm.phix = TRUE, minLen = 175, truncLen = c(230, 220)
 )
 
