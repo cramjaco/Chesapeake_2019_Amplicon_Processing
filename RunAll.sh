@@ -11,8 +11,8 @@
 
 #First I trim my sequences, with cutadapt
 # skipping for now, since already done
-# echo "Step 1 -- Trimming Primers"
-# sh Trim.sh
+ echo "Step 1 -- Trimming Primers"
+sh Trim.sh
 # Forgetting this step is the leading cause of chimeras, but I haven't
 # forgotten, and there is evidence that the trimming (parada et al. primers)
 # actually happened in the file
