@@ -1,13 +1,11 @@
 #!/bin/bash
 
+# Must have run `conda activate cutadaptenv` if on the cluster for 
+# trim to work
 
-
-# The point of this script is to reproduce a problem that I am having
-# with the DADA2 pipeline, on a few select samples.
-# Goal is allowing someone else to reproduce my problem.
-
-# I start with three samples, all located in `./RenamedSamples/`
-# I also have metadata in `SampleKey1.csv` and `SampleKey2.csv`
+# Before I start, rename all of the files
+echo "Step 0 -- Renaming Files"
+Rscript RScripts/00_RenameFiles.R
 
 #First I trim my sequences, with cutadapt
 # skipping for now, since already done
@@ -18,27 +16,27 @@ sh Trim.sh
 # actually happened in the file
 
 echo "Step 2 -- Plot Quality Profiles"
-Rscript RScripts/PlotQualityProfiles.R
+Rscript RScripts/01_PlotQualityProfiles.R
 
 # In filter and trim, I'm being pretty liberal with what I keep maxEE = c(3,5)
 # because otherwise, I throw away the bulk of the sequences.
 echo "Step 3 -- Filtering Sequences"
-Rscript RScripts/FilterAndTrim.R
+Rscript RScripts/02_FilterAndTrim.R
 
 echo "Step 4 -- Learning Errors"
-Rscript RScripts/LearnErrors.R 
+Rscript RScripts/03_LearnErrors.R 
 
 # These look uglyier than other amplicon runs.
 echo "Step 5 -- Plotting Reads"
-Rscript RScripts/PlotReads.R
+Rscript RScripts/04_PlotReads.R
 
 # Dereplicate
 echo "Step 6 -- Dereplicating"
-Rscript RScripts/DerepInator.R 
+Rscript RScripts/06_DerepInator.R 
 
 # Run dada
 echo "Step 7 -- Running Dada"
-Rscript RScripts/DadaInator.R
+Rscript RScripts/07_DadaInator.R
 
 # Merge the forward and reverse reads
 # this involves a script to concatenate the 18s reads and join the 16s reads.

@@ -1,0 +1,24 @@
+#!/bin/bash
+
+## Simple single process job that uses 4 cores
+
+#SBATCH -A "app=test"
+#SBATCH -J Merge
+#SBATCH -p high
+#SBATCH -n 1
+#SBATCH --cpus-per-task=24
+#SBATCH -t 8:00:00
+#SBATCH --output=SlurmOutput/merge-slurm-%j.out
+
+# Running r version 4
+module load R/4.0.2
+
+# Cutadaptenv is my conda env with cutadapt in it
+# others may need to activate their own conda enviornment
+
+source activate cutadaptenv
+
+pwd
+
+Rscript RScripts/08_Merge.R
+

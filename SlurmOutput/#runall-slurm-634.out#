@@ -1,0 +1,24 @@
+/home/jcram/Projects/Redo_CB_Amplicon
+── Attaching packages ─────────────────────────────────────── tidyverse 1.3.1 ──
+✔ ggplot2 3.3.5     ✔ purrr   0.3.4
+✔ tibble  3.1.6     ✔ dplyr   1.0.7
+✔ tidyr   1.1.4     ✔ stringr 1.4.0
+✔ readr   2.1.1     ✔ forcats 0.5.1
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+here() starts at /home/jcram/Projects/Redo_CB_Amplicon
+Loading required package: Rcpp
+[1] ‘1.18.0’
+Rows: 220 Columns: 17
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (14): Run, Files, ID, Sample, Depth, Type, Paths, RenFiles, RenPaths, Tr...
+dbl  (3): ReadDir, Station, Size
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+116911760 total bases in 508312 reads from 5 samples will be used for learning the error rates.
+116270000 total bases in 528500 reads from 7 samples will be used for learning the error rates.
+111959170 total bases in 486779 reads from 7 samples will be used for learning the error rates.
+112546060 total bases in 511573 reads from 9 samples will be used for learning the error rates.
